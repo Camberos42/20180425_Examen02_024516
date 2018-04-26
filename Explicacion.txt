@@ -1,0 +1,11 @@
+Expllicacion Diagrama UML
+
+Primero que nada se utilizo una Interface para implementar el metodo
+execute() el cual lo tendria la clases concretas robots para realiza la tarea que 
+se le fue asignada,pudiendo asi haber n robots el cual se les asignaria una o mas
+tareas, el cual tendria los metodos de ejecutar y tambien el de interrumpir en 
+caso de que se tuviera que pausar la tarea. En cada Tarea se tendra un metodo
+para imprimir el Log de la actividad realizada para finalmente llamar a
+los logs de cada tarea y asi imprimirlos todos. Cada robot tendra una lista
+de tareas para imprimir en el log la actividad en la que trabajo cada robot.
+El patron del que me base fue el command pattern.
